@@ -4,7 +4,6 @@
 $nomSite = "Ferme auberge « Au bon accueil »";
 $annee = date("Y");
 
-// Horaires (à modifier selon vos besoins)
 $horaires = [
     "Lundi"    => ["Fermé", ""],
     "Mardi"    => ["11:30 - 14:30", "18:30 - 22:00"],
