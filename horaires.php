@@ -5,7 +5,7 @@ $nomSite = "Ferme auberge « Au bon accueil »";
 $annee = date("Y");
 
 $horaires = [
-    "Lundi"    => ["Fermé", ""],
+    "Lundi"    => ["11:30 - 14:30", "18:30 - 22:00"],
     "Mardi"    => ["11:30 - 14:30", "18:30 - 22:00"],
     "Mercredi" => ["11:30 - 14:30", "18:30 - 22:00"],
     "Jeudi"    => ["11:30 - 14:30", "18:30 - 22:00"],
@@ -104,7 +104,7 @@ function formatService(string $service): string {
                             <ul class="mb-0">
                                 <li>Stationnement : sur place</li>
                                 <li>Paiements : espèces / carte (selon réseau)</li>
-                                <li>Animaux : à confirmer selon votre policy</li>
+                                <li>Animaux : à informer à l'avancer</li>
                             </ul>
                         </div>
                     </div>
