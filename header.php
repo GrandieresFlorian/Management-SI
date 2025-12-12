@@ -8,7 +8,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
                     <!-- Lien actif sur cette page -->
-                    <li class="nav-item"><a class="nav-link active" href="valeurs.php">Nos Valeurs</a></li> 
+                    <li class="nav-item"><a class="nav-link active" href="nos_valeurs.php">Nos Valeurs</a></li> 
                     <li class="nav-item"><a class="nav-link" href="#">Restaurant</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Chambres</a></li>
