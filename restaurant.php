@@ -202,13 +202,13 @@ $annee = date("Y");
                     <h3 class="h4 text-center mb-3" style="color: var(--wood-brown);">🕐 Horaires du restaurant</h3>
                     <ul class="list-group list-group-flush bg-transparent">
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Mardi</span> <span class="text-danger fw-bold">Fermé</span>
+                            <span>Dimanche</span> <span class="text-danger fw-bold">Fermé</span>
                         </li>
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Midi (Mer-Lun)</span> <span>12h00 - 14h00</span>
+                            <span>Midi (Lun-Sam)</span> <span>12h00 - 15h00</span>
                         </li>
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Soir (Mer-Lun)</span> <span>19h00 - 21h00</span>
+                            <span>Soir (Lun-Sam)</span> <span>19h00 - 22h00</span>
                         </li>
                     </ul>
                 </div>
@@ -241,9 +241,9 @@ $annee = date("Y");
                 <div class="col-md-4 mb-3">
                     <h5>Horaires</h5>
                     <ul class="list-unstyled">
-                        <li>Midi : 12h00 - 14h00</li>
-                        <li>Soir : 19h00 - 21h00</li>
-                        <li>Fermé le mardi</li>
+                        <li>Midi : 12h00 - 15h00</li>
+                        <li>Soir : 19h00 - 22h00</li>
+                        <li>Fermé le dimanche</li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-3">
