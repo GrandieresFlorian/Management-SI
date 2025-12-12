@@ -8,6 +8,7 @@
                 <div class="col-md-4 mb-3">
                     <h5>Liens utiles</h5>
                     <ul class="list-unstyled">
+                        <li><a href="equipe.php">L'équipe</a></li>
                         <li><a href="#">Mentions légales</a></li>
                         <li><a href="#">Plan du site</a></li>
                         <li><a href="#">Recrutement</a></li>
