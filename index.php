@@ -1,21 +1,3 @@
-<?php
-// Variables globales
-$nomSite = "Ferme auberge « Au bon accueil »";
-$annee = date("Y");
-?>
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $nomSite; ?> - Accueil</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
     <?php require 'header.php'; ?>
 
@@ -81,9 +63,9 @@ $annee = date("Y");
                     <div class="p-4 bg-white rounded shadow-sm border border-success">
                         <h3 class="text-success">Nos Valeurs</h3>
                         <ul class="list-unstyled">
-                            <li class="mb-2">🌱 <strong>Respect de l'environnement</strong> et agriculture durable.</li>
-                            <li class="mb-2">🧀 <strong>Terroir local</strong> en circuit court.</li>
-                            <li class="mb-2">🤝 <strong>Convivialité</strong> et partage familial.</li>
+                            <li class="mb-2"> <strong> -Respect de l'environnement</strong> et agriculture durable.</li>
+                            <li class="mb-2"> <strong> -Terroir local</strong> en circuit court.</li>
+                            <li class="mb-2"> <strong> -Convivialité</strong> et partage familial.</li>
                         </ul>
                     </div>
                 </div>
