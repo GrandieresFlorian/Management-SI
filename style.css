@@ -1,0 +1,93 @@
+/* --- CHARTE GRAPHIQUE --- */
+:root {
+    --bg-cream: #F9E0C7;      /* Almond Cream */
+    --text-ink: #021426;      /* Ink Black */
+    --wood-brown: #3F2C13;    /* Deep Walnut */
+    --accent-red: #8A0505;    /* Blood Red */
+    --nature-green: #1D7407;  /* Green */
+}
+
+body {
+    background-color: var(--bg-cream);
+    color: var(--text-ink);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- NAVIGATION --- */
+.navbar-custom {
+    background-color: var(--nature-green) !important;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: var(--bg-cream) !important;
+}
+
+/* --- HERO (BANDEAU) --- */
+.hero-banner {
+    background-color: var(--wood-brown);
+    color: var(--bg-cream); /* Texte clair sur fond sombre */
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 5px solid var(--nature-green);
+}
+
+/* --- TITRES --- */
+h1, h2, h3 {
+    color: var(--wood-brown);
+    font-weight: bold;
+}
+
+.section-titre {
+    border-bottom: 2px solid var(--accent-red);
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* --- CARTES --- */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    background-color: white; /* On garde blanc pour la lisibilité */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--nature-green);
+}
+
+/* --- BOUTONS --- */
+.btn-terroir {
+    background-color: var(--accent-red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn-terroir:hover {
+    background-color: #6b0303; /* Un rouge un peu plus foncé au survol */
+    color: white;
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: var(--text-ink);
+    color: var(--bg-cream);
+    padding: 40px 0;
+    margin-top: 60px;
+    border-top: 5px solid var(--accent-red);
+}
+footer a {
+    color: var(--bg-cream);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--nature-green);
+}
