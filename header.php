@@ -28,7 +28,7 @@ $annee = date("Y");
                     <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link active" href="nos_valeurs.php">Nos Valeurs</a></li> 
                     <li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurant</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produits.php">Produits</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Chambres</a></li>
                     <li class="nav-item"><a class="nav-link" href="horaires.php">Horaires</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
