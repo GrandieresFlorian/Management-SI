@@ -2,6 +2,7 @@
 $nomSite = "Ferme auberge « Au bon accueil »";
 $page_active = "restaurant"; 
 $annee = date("Y");
+include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -16,25 +17,6 @@ $annee = date("Y");
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.php"><?php echo $nomSite; ?></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nos_valeurs.php">Nos Valeurs</a></li> 
-                    <li class="nav-item"><a class="nav-link active" href="restaurant.php">Restaurant</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Chambres</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <header class="hero-banner">
         <div class="container">
@@ -205,10 +187,10 @@ $annee = date("Y");
                             <span>Dimanche</span> <span class="text-danger fw-bold">Fermé</span>
                         </li>
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Midi (Lun-Sam)</span> <span>12h00 - 15h00</span>
+                            <span>Midi (Lun-Sam)</span> <span>11h30 - 14h30</span>
                         </li>
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Soir (Lun-Sam)</span> <span>19h00 - 22h00</span>
+                            <span>Soir (Lun-Sam)</span> <span>18h30 - 22h00</span>
                         </li>
                     </ul>
                 </div>
