@@ -184,7 +184,7 @@ include 'header.php';
                     <h3 class="h4 text-center mb-3" style="color: var(--wood-brown);">🕐 Horaires du restaurant</h3>
                     <ul class="list-group list-group-flush bg-transparent">
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
-                            <span>Dimanche</span> <span class="text-danger fw-bold">Fermé</span>
+                            <span>Dimanche</span> <span>11h30 - 15h30</span>
                         </li>
                         <li class="list-group-item bg-transparent d-flex justify-content-between">
                             <span>Midi (Lun-Sam)</span> <span>11h30 - 14h30</span>
@@ -223,9 +223,9 @@ include 'header.php';
                 <div class="col-md-4 mb-3">
                     <h5>Horaires</h5>
                     <ul class="list-unstyled">
-                        <li>Midi : 12h00 - 15h00</li>
-                        <li>Soir : 19h00 - 22h00</li>
-                        <li>Fermé le dimanche</li>
+                        <li>Midi : 11h30 - 14h30</li>
+                        <li>Soir : 18h30 - 22h00</li>
+                        <li>Dimanche : midi uniquement</li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-3">
