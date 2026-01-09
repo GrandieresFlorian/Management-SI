@@ -57,7 +57,7 @@
                     <li><i class="fas fa-check text-success me-2"></i> Préparation fraîcheur le matin même</li>
                     <li><i class="fas fa-check text-success me-2"></i> Stationnement réservé pour les retraits</li>
                 </ul>
-                <button class="btn btn-terroir btn-lg">Accéder à la boutique en ligne</button>
+                <a href="vente_en_ligne.php" class="btn btn-terroir btn-lg">Accéder à la boutique en ligne</a>
             </div>
         </div>
     </section>
