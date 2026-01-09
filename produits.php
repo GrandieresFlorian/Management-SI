@@ -129,61 +129,82 @@
         <p class="mb-4">Des fruits et légumes de saison, cultivés sans pesticides chimiques, cueillis à maturité.</p>
 
         <div class="row g-4">
+            
+            <!-- COLONNE GAUCHE : Panier de Saison (Grand bloc vertical) -->
             <div class="col-md-4">
-                <div class="card border-success mb-3">
+                <div class="card border-success h-100">
                     <div class="card-header bg-success text-white">La Star du Mois</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Le Panier de Saison</h5>
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h5 class="card-title mt-3">Le Panier de Saison</h5>
                         <p class="card-text">
                             Un assortiment hebdomadaire de 5 à 7kg de légumes frais récoltés le matin même.
                         </p>
-                        <p class="fw-bold" style="color: var(--wood-brown);">15,00 € / panier</p>
+                        <p class="fw-bold fs-4 mb-3" style="color: var(--wood-brown);">15,00 € / panier</p>
+                        <div class="text-center">
+                             <!-- Exemple d'icône panier si vous voulez -->
+                            <i class="fas fa-shopping-basket fa-3x text-success opacity-50"></i>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-carrot fa-2x me-3" style="color: var(--nature-green);"></i>
-                            <div>
-                                <h5 class="mb-1">Légumes Racines</h5>
-                                <p class="small text-muted mb-0">Carottes, panais, betteraves, pommes de terre</p>
+                <div class="row g-3"> 
+
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body d-flex align-items-center p-3">
+                                <i class="fas fa-carrot fa-2x me-3" style="color: var(--nature-green);"></i>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Légumes Racines</h6>
+                                    <p class="small text-muted mb-0">Carottes, panais, betteraves</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-leaf fa-2x me-3" style="color: var(--nature-green);"></i>
-                            <div>
-                                <h5 class="mb-1">Verdure & Salades</h5>
-                                <p class="small text-muted mb-0">Laitues, épinards, blettes, choux divers</p>
+
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body d-flex align-items-center p-3">
+                                <i class="fas fa-leaf fa-2x me-3" style="color: var(--nature-green);"></i>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Verdure & Salades</h6>
+                                    <p class="small text-muted mb-0">Laitues, épinards, blettes</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-apple-alt fa-2x me-3" style="color: var(--accent-red);"></i>
-                            <div>
-                                <h5 class="mb-1">Fruits du Verger</h5>
-                                <p class="small text-muted mb-0">Pommes, poires, prunes (selon saison)</p>
+
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body d-flex align-items-center p-3">
+                                <i class="fas fa-apple-alt fa-2x me-3" style="color: var(--accent-red);"></i>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Fruits du Verger</h6>
+                                    <p class="small text-muted mb-0">Pommes, poires, prunes</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="d-flex align-items-center">
-                            <i class="fas fa-jar fa-2x me-3" style="color: var(--wood-brown);"></i>
-                            <div>
-                                <h5 class="mb-1">Transformés</h5>
-                                <p class="small text-muted mb-0">Confitures, compotes, soupes maison</p>
+
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body d-flex align-items-center p-3">
+                                <i class="fas fa-jar fa-2x me-3" style="color: var(--wood-brown);"></i>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Transformés</h6>
+                                    <p class="small text-muted mb-0">Confitures, compotes</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+            
         </div>
     </section>
+
 
 </div>
 
