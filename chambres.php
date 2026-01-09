@@ -76,7 +76,7 @@ include 'header.php';
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Visite chambre" allowfullscreen></iframe>
+                        <iframe src="https://youtu.be/sYRaaB_2cgM" title="Visite chambre" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
